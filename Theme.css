@@ -1,0 +1,23 @@
+.accordion
+{
+	background-color: lightGray;
+	padding: 10px;
+	line
+}
+.accordion .fa-angle-down
+{
+	float: right;
+	font-size: 18px;
+	text-align: center;
+}
+.accordion-header-color
+{
+	color: purple;	
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.accordion-header-color:hover
+{
+	color:red;
+}

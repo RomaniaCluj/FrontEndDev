@@ -5,20 +5,22 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="theme.css">
 </head>
 <body>
 
 <div class="container">
-  <h2>Simple Collapsible</h2>
-  <p>Click on the button to toggle between showing and hiding content.</p>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+ <h2>Simple Collapsible</h2>
+ <p>Click on the button to toggle between showing and hiding content.</p>
+
+<div class= "accordion">
+  <a class="accordion-header-color" data-toggle="collapse" data-target="#demo" aria-expanded="true">Simple collapsible <i class="fas fa-angle-down rotate-icon"></i></a>
   <div id="demo" class="collapse">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   </div>
-  <br>
-  <br>
   <div>
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Simple collapsible 2</button>
   <div id="demo2" class="collapse">
@@ -27,6 +29,7 @@
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   </div>
   </div>
+</div>
 </div>
 
 </body>
