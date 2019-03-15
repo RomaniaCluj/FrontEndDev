@@ -2,8 +2,8 @@
 {
 	background-color: lightGray;
 	padding: 10px;
-	line
 }
+
 .accordion .fa-angle-down
 {
 	float: right;
@@ -19,5 +19,17 @@
 
 .accordion-header-color:hover
 {
-	color:red;
+	color:blue;
+}
+
+.hline 
+{ 
+width:100%;
+height:1px; 
+background: #000;
+}
+
+.padding5
+{
+	padding: 5px
 }
